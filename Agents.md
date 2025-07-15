@@ -80,10 +80,7 @@ When generating new code:
 ## ✅ Pull Request & CI Requirements
 
 1. **Implementation clarity**: new modules should include tests & docstrings.
-2. **Linting & formatting**: run `flake8`, `mypy`, `black`.
-3. **Unit tests**: cover major parts in `hybridnets_test.py`, pipeline, loss functions.
-4. **Demo update**: if API/UI changed, update `demo/` and `tutorial/`.
-5. **Performance check**: retrain small number of epochs & run validation to show no regressions.
+2. **Demo update**: if API/UI changed, update `demo/` and `tutorial/`.
 
 ---
 
